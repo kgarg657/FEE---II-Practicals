@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.meme-container {
+    background-color: #ffffff;
+    max-width: 650px;
+    width: 100%;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+
+.search-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.logo {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+.g1 { color: #4285F4; }
+.o1 { color: #EA4335; }
+.o2 { color: #FBBC05; }
+.g2 { color: #4285F4; }
+.l  { color: #34A853; }
+.e  { color: #EA4335; }
+
+
+.search-bar-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 15px;
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+}
+.search-icon {
+    margin-right: 10px;
+    color: #70757a;
+}
+.search-input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+    color: #202124;
+    outline: none;
+}
+
+
+.time-divider {
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+    color: #a0a0a0;
+    font-size: 14px;
+    border-bottom: 1px dashed #e0e0e0;
+    line-height: 0.1em;
+}
+
+
+.search-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.search-card:hover {
+    background-color: #f8f9fa;
+    border-color: #dadce0;
+}
+
+.result-thumb {
+    width: 90px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 4px;
+    background-color: #eeeeee; 
+    border: 1px solid #ddd;
+}
+
+
+.result-text {
+    display: flex;
+    flex-direction: column;
+}
+.site-url {
+    margin: 0;
+    font-size: 12px;
+    color: #202124;
+}
+.result-title {
+    margin: 2px 0;
+    font-size: 18px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+.result-title:hover {
+    text-decoration: underline;
+}
+.result-desc {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: #4d5156;
+    line-height: 1.4;
+}
+
+
+
