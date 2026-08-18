@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <style>
+            .chessboard{
+                width: 200px;
+                height: 200px;
+                border: 1px solid black;
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-rows: repeat(4,1fr);
+            }
+            .black{
+                background-color: black;
+            }
+            .white{
+                background-color: white;
+            }
+            .childbox{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                border: 2px solid black;
+                
+            }
+            </style>
+    </head>
+    <body>
+        <div class="chessboard">
+            <div class="childbox white" ></div>
+            <div class="childbox black"></div>
+            <div class="childbox white"></div>
+            <div class="childbox black"></div>
+            <div class="childbox black"></div>
+            <div class="childbox white"></div>
+            <div class="childbox black"></div>
+            <div class="childbox white"></div>
+            <div class="childbox white"></div>
+            <div class="childbox black"></div>
+            <div class="childbox white"></div>
+            <div class="childbox black"></div>
+            <div class="childbox black"></div>
+            <div class="childbox white"></div>
+            <div class="childbox black"></div>
+            <div class="childbox white"></div>
+        </div>
+    </body>
